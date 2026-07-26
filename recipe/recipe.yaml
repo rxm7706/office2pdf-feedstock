@@ -22,7 +22,7 @@ source:
     sha256: a69f60df4102c74db295b45bdeca8bb300ecaa954a319de94cbe4e8e337e98f9
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
@@ -76,3 +76,5 @@ extra:
   recipe-maintainers:
     - killua156
     - mgorny
+    - rxm7706
+
