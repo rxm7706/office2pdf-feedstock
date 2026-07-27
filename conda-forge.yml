@@ -13,3 +13,10 @@ github:
   branch_name: main
   tooling_branch_name: main
 test: native_and_emulated
+bot:
+  automerge: true
+  inspection: update-grayskull
+  check_solvable: true
+  run_deps_from_wheel: true
+shellcheck:
+  enabled: true
